@@ -88,7 +88,31 @@ header {
     text-align: center;
 
 }
+
+p{
+    display: inline-block;
+}
     
+.ita{
+    width: 20px;
+    
+}
+
+.pink-column{
+    color: #7289D9;
+
+}
+
+.italiano{
+    color: white;
+}
+
+
+.social{
+    width: 200px;
+    height: 40px;
+    border: 2px black dashed;
+}
 
 .logo-header {
     background-color: transparent;
@@ -202,12 +226,19 @@ li, a{
 }
 
 .download{
-    background-color: white;
+
     padding: 10px;
     border-radius:999px;
     background-color: #7289DA;
     color: white;
     
+}
+
+.download2{
+    padding: 10px;
+    border-radius:999px;
+    background-color: #7289DA;
+    color: white;
 }
 
 .button{
@@ -244,26 +275,36 @@ li, a{
 }
 
 .griglia-pink {
-    background-color: #F08080;
-    width: 200px;
+    /* background-color: #F08080; */
+    width: 300px;
     height: 370px;
-    border: 1px white dashed;
-   
-
-
+    /* border: 1px white dashed; */
+    padding-top: 50px;
 
 }
 
 .griglia-green {
-    background-color: #4DB3AB;
+    /* background-color: #4DB3AB; */
     width: 150px;
     height: 370px;
-    border: 1px white dashed;
-
-
+    /* border: 1px white dashed; */
+    padding-top: 45px;
+    
 }
 
+h4{
+    color: #7289DA;
+}
 
+.social{
+    width: 100px;
+    color: white;
+    padding-top: 20px;
+}
+
+ol>li{
+    padding-top: 20px;
+}
 
 .box-gray {
     width: 100%;
@@ -279,7 +320,7 @@ li, a{
 .box-aquamarine {
     width: 800px;
     height: 60px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -288,10 +329,10 @@ li, a{
 
 .logo-end,
 .bottone {
-    background-color: #F08080;
+    /* background-color: #F08080; */
     width: 60px;
     height: 30px;
-    border: 1px black dashed;
+    /* border: 1px black dashed; */
     text-align: center;
 
 }
