@@ -15,18 +15,28 @@ reset
 }
 
 header {
-    background-color: #A3CBD9;
+    background-color: #245EE9;
     width: 100%;
     height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
-
 }
 
 .navbar{
+    
+}
+
+.jumbo{
+    width: 100%;
+    height: 400px;
+}
+
+.sfondo-jumbo{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
     
 }
 
